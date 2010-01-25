@@ -1,0 +1,11 @@
+--- origsrc/ndesk-dbus-glib-0.4.1/src/Makefile.am	2007-10-16 05:47:13.000000000 -0500
++++ src/ndesk-dbus-glib-0.4.1/src/Makefile.am	2007-12-04 09:23:20.057006000 -0600
+@@ -2,7 +2,7 @@
+ TARGET = $(ASSEMBLY).dll
+ 
+ CSFLAGS = \
+-	-debug -target:library -keyfile:../ndesk.snk
++	-debug -target:library -keyfile:$(top_srcdir)/ndesk.snk
+ 
+ LIBFLAGS = \
+ 	$(NDESK_DBUS_LIBS)

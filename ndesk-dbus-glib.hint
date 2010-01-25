@@ -1,0 +1,7 @@
+category: DotNET
+sdesc: "Managed D-Bus Glib integration module (sources)"
+ldesc: "dbus-sharp is a C# implementation of D-Bus. It's often referred 
+to as 'managed D-Bus' to avoid confusion with existing bindings (which 
+wrap libdbus).
+
+This module provides GLib main loop integration for Managed D-Bus."
